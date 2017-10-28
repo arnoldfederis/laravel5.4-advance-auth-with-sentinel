@@ -17,7 +17,7 @@
 ## How to use
 - Just simple type in command php artisan migrate:fresh --seed
 - to test the authentication
-- use in email or username: admin
+- use in email or username: admin / admin@admin.com
 - password: admin
 
 ## Contact

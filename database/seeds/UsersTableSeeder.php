@@ -14,9 +14,9 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         $data = [
-            'username'       => 'arnoldfederis',
-            'email'          => 'arnoldfederis@gmail.com',
-            'password'       => 'arnold',
+            'username'       => 'admin',
+            'email'          => 'admin@admin.com',
+            'password'       => 'admin',
             'first_name'     => 'Arnold',
             'last_name'      => 'Federis'
         ];

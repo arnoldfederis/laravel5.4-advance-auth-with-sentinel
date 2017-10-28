@@ -14,6 +14,12 @@
 - composer install
 - php artisan key:generate
 
+## How to use
+- Just simple type in command php artisan migrate:fresh --seed
+- to test the authentication
+- use in email or username: admin
+- password: admin
+
 ## Contact
 If there's any problem on installing you can reach me @gmail: dev.arnoldfederis@gmail.com
 

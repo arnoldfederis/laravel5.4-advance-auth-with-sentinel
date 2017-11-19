@@ -123,6 +123,13 @@ class MigrationCartalystSentinel extends Migration
             $table->primary(['user_id', 'role_id']);
         });
 
+        Schema::create('permissions', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('slug');
+            $table->string('name');
+            $table->timestamps();
+        });
+
         Schema::create('throttle', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('user_id')->unsigned()->nullable();
